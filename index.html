@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="iw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/login.css">
+  <script src="script/script.js" defer></script>
+  <title>Qubertec</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="user-info">
+        <p class="txt">שם סוכן <b>ישראל ישראלי</b>
+          <b>123456 </b>מספר</p>
+        <p class="txt greeting-txt">שלום,<b> חיים משה</b></p>
+      </div>
+      <div class="user-photo">
+        <img src="assets/head-user.png" alt="user">
+      </div>
+    </header>
+
+    <article class="greeting">
+      <p class="txt">שלום,<b> חיים משה</b></p>
+    </article>
+
+    <main>
+      <section class="head">
+        <h1 class="head-text">כניסה למערכת - צפיה בהצעת המחיר</h1>
+        <div class="head-logo">
+          <img src="assets/user.svg" alt="user">
+        </div>
+      </section>
+      
+      <section class="login">
+        <h3 class="login-text">הזן את קוד הכניסה, אם לא קיבלת קוד לחץ על שליחת קוד חדש</h3>
+
+        <form action="pages/main.html" class="login__form">
+          <div class="login__form-name form-block">
+            <label for="name">שם משתמש</label>
+            <div class="name form-block__field">
+              <img src="assets/cancel.png" alt="#" id="cleanInput">
+              <input type="text" id="name" name="username">
+            </div>
+          </div>
+
+          <div class="login__form-password form-block">
+            <label for="password">סיסמא</label>
+            <div class="password form-block__field">
+              <input type="password" id="password" name="current-password" autocomplete="cc-csc">
+            </div>
+          </div>
+
+          <div class="login__form-check">
+            <button type="submit"><img src="assets/arrow-back.svg" alt="#">כניסה</button>
+            <button type="reset">ביטול</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

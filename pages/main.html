@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../assets/logo.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../script/main.js" defer></script>
+  <title>Qubertec</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="user-info for-desk">
+        <p class="txt">שם סוכן <b>ישראל ישראלי</b>
+          <b>123456 </b>מספר</p>
+      </div>
+      <div class="user-info for-mob">
+        <p class="txt"><b>ישראל ישראלי</b>
+          קולקטיב <b>חברת חשמל</b></p>
+      </div>
+      <div class="user-photo">
+        <img src="../assets/head-user.png" alt="user">
+      </div>
+    </header>
+
+    <main>
+      <section class="head">
+        <p class="head-text">
+          <span>פוליסות שהופקו</span>
+          <span class="last">הצעות אחרונות</span>
+        </p>
+        <div class="head-logo">
+          <img src="../assets/user.svg" alt="user">
+        </div>
+      </section>
+
+      <section class="suggestion">
+        <button class="suggestion__new"><img src="../assets/arrow-back.svg" alt="">הצעה חדשה</button>
+        <button class="suggestion__new mob"><img src="../assets/plus.png" alt=""></button>
+        <div class="suggestion__search">
+          <img src="../assets/search.png" alt="#">
+          <input type="search" id="search" name="search" placeholder="חיפוש">
+        </div>
+      </section>
+
+      <section class="content">
+        <div class="content__head">
+          <p class="send-to-customer">נשלח ללקוח</p>
+          <p class="number">מס‘ פוליסה</p>
+          <p class="insurence-beginning">תחילת הביטוח</p>
+          <p class="suggestion-opened">פתיחת ההצעה</p>
+          <p class="customer-document-number">תעודת זהות</p>
+          <p class="licence-number">מס‘ רישוי</p>
+          <p class="insured-person">שם מבוטח</p>
+          <p class="product">מוצר</p>
+          <p class="branch">ענף</p>
+        </div>
+
+        <div class="content__items">
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item item-active">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <p class="item__send-to-customer checked">
+              <i class="material-icons">done</i>
+            </p>
+            <p class="item__number">123456789012</p>
+            <p class="item__insurence-beginning">04.04.2020</p>
+            <p class="item__suggestion-opened">12.10.2019</p>
+            <p class="item__customer-document-number">039894872</p>
+            <p class="item__licence-number">12-345-67</p>
+            <p class="item__insured-person">יצחק בן אברהם</p>
+            <p class="item__product">שם המוצר</p>
+            <p class="item__branch">רכב</p>
+            <div class="edit-mode">
+              <div class="send-email edit-mode__item">
+                <div class="round">
+                  <img src="../assets/mail.png" alt="#">
+                </div>
+                <p>ההצעה
+                  שליחת</p>
+              </div>
+              <div class="edit edit-mode__item">
+                <div class="round">
+                  <img src="../assets/edit.png" alt="#">
+                </div>
+                <p>ההצעה
+                  עריכת</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-mob">
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="content-mob__item">
+          <div class="content-mob__item-head">
+            <div class="mode">
+              <div class="send-email mode__item">
+                <img src="../assets/mail-light.png" alt="#">
+              </div>
+              <div class="edit mode__item">
+                <img src="../assets/edit-light.png" alt="#">
+              </div>
+            </div>
+            <div class="product">
+              <img src="../assets/car.png" alt="#">
+            </div>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">קולקטיב</p>
+            <p class="info__content">שם הקולקטיב</p>
+          </div>
+          <div class="content-mob__item-info">
+            <p class="info__name">שם מבוטח</p>
+            <p class="info__content">יצחק בן אברהם</p>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">מספר רישוי</p>
+              <p class="info__content">12-345-67</p>
+            </div>
+            <div>
+              <p class="info__name">תעודת זהות</p>
+              <p class="info__content">038974573</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">תחילת ביטוח</p>
+              <p class="info__content">04.04.2020</p>
+            </div>
+            <div>
+              <p class="info__name">פתיחת הצעה</p>
+              <p class="info__content">12.10.2019</p>
+            </div>
+          </div>
+          <div class="content-mob__item-info info-block">
+            <div>
+              <p class="info__name">&nbsp;</p>
+              <p class="info__content main">(נשלחה ללקוח)</p>
+            </div>
+            <div>
+              <p class="info__name">פוליסה</p>
+              <p class="info__content">123456789012</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>

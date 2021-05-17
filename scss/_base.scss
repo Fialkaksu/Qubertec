@@ -1,0 +1,42 @@
+%for-arimo {
+  font-family: "Arimo";
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+}
+%for-flex-end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+%for-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+%for-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+%for-flex-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+%txt {
+  font-size: 16px;
+  line-height: 18px;
+}
+%input {
+  font-size: 24px;
+  line-height: 28px;
+}
+%btn {
+  width: 350px;
+  height: 58px;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  @extend %for-flex-center;
+}
